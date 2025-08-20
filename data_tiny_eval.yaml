@@ -1,0 +1,7 @@
+# Tiny evaluation split: keep 5% train for training context, and 2% test for quick metrics
+train: D:/Projects 2.0/weapondetection/splits/train_5.txt
+val: D:/Projects 2.0/weapondetection/splits/val_2.txt
+test: D:/Projects 2.0/weapondetection/splits/test_2.txt
+
+nc: 4
+names: ['-', 'gun', 'gun-knife-thesis - v11 Yolov5 augmented', 'knife']

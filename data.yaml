@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['-', 'gun', 'gun-knife-thesis - v11 Yolov5 augmented', 'knife']
+
+roboflow:
+  workspace: ww-lpilx
+  project: weapon-fswtu
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ww-lpilx/weapon-fswtu/dataset/1

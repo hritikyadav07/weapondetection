@@ -1,0 +1,7 @@
+# 25% train subset; full val/test
+train: D:/Projects 2.0/weapondetection/splits/train_25.txt
+val: D:/Projects 2.0/weapondetection/splits/val_full.txt
+test: D:/Projects 2.0/weapondetection/splits/test_full.txt
+
+nc: 4
+names: ['-', 'gun', 'gun-knife-thesis - v11 Yolov5 augmented', 'knife']
